@@ -161,9 +161,11 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/BModule/BModule.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CModule/CModule.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/BModule/BModule.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CModule/CModule.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

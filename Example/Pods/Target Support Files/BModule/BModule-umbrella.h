@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "BModule.h"
+#import "BViewController.h"
 
 FOUNDATION_EXPORT double BModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char BModuleVersionString[];

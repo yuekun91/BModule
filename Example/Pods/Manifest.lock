@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BModule: d36f2eb718854afe165254a5903b9e79f7e32811
+  BModule: a7cf44b63e93042608699b463f283dde6ed95d31
   CModule: a99f621b2314b034140c0bc8962327a03967c0fb
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7

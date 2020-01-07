@@ -1,9 +1,9 @@
 {
   "name": "BModule",
   "version": "0.1.0",
-  "summary": "A short description of BModule.",
+  "summary": "BModule.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yuekun@tom.com/BModule",
+  "homepage": "https://github.com/yuekun91/BModule",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "yuekun@tom.com": "yuekun@tom.com"
   },
   "source": {
-    "git": "https://github.com/yuekun@tom.com/BModule.git",
+    "git": "https://github.com/yuekun91/BModule.git",
     "tag": "0.1.0"
   },
   "platforms": {
