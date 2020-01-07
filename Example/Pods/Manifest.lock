@@ -1,0 +1,36 @@
+PODS:
+  - BModule (0.1.0):
+    - CModule (= 0.1.0)
+  - CModule (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Kiwi (3.0.0)
+
+DEPENDENCIES:
+  - BModule (from `../`)
+  - FBSnapshotTestCase
+  - Kiwi
+
+SPEC REPOS:
+  https://github.com/yuekun91/KK_iOS.git:
+    - CModule
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+    - Kiwi
+
+EXTERNAL SOURCES:
+  BModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BModule: d36f2eb718854afe165254a5903b9e79f7e32811
+  CModule: a99f621b2314b034140c0bc8962327a03967c0fb
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+
+PODFILE CHECKSUM: fe74531d2faedbd6fee3dbca3befdc6b73163179
+
+COCOAPODS: 1.8.4
